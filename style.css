@@ -1,0 +1,119 @@
+/* Reset & Variabel Warna */
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #64748b;
+  --bg-color: #f8fafc;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Container */
+.container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Judul */
+h2 {
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #475569;
+}
+
+/* Input, Select, Textarea */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+/* Textarea */
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Checkbox Group */
+.checkbox-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.checkbox-group input {
+  width: auto;
+  margin-top: 4px;
+}
+
+/* Tombol */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Link Kembali */
+.back-link {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
